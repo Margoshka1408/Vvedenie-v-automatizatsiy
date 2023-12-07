@@ -28,4 +28,7 @@ public class Player {
         return risk;
     }
 
+    public void setRisk(boolean risk) {
+        this.risk = risk;
+    }
 }
