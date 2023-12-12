@@ -4,7 +4,6 @@ package org.max.home;
  * Класс для описание двери
  */
 public class Door {
-
     private boolean isPrize;
 
     public Door(boolean isPrize) {
@@ -14,4 +13,14 @@ public class Door {
     public boolean isPrize() {
         return isPrize;
     }
+
+
+    @Override
+    public String toString() {
+        return "Door{" +
+                "isPrize=" + isPrize +
+                '}';
+    }
+
+
 }

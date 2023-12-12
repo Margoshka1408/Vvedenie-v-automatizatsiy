@@ -16,7 +16,7 @@ public class PlayGame {
         int statisticWin = 0;
         int step;
 
-        for (step = 0; step<1000; step++) {
+        for (step = 0; step<3; step++) {
             Game game = new Game(gamer, getDoors());
 
             if (game.round(0).isPrize()) statisticWin++;
