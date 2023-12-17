@@ -10,6 +10,7 @@ public class HW1GameTest {
     Game game;
     List<Door> doors;
 
+    //тут можно использовать @BeforeAll
     @BeforeEach
     void initDoors () {
         doors = new ArrayList<>();
